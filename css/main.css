@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #E9B105;
+	
+}
+
+nav.nav{
+	background-color: #071BE3;
+	width: 100%;
+}
+
+nav.nav ul{
+	display: flex;
+}
+
+nav.nav ul li{
+	list-style: none;
+	padding: 15px 50px;
+}
+
+nav.nav ul li a{
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+h1{
+	font-family: 'Satisfy', cursive;
+	color: white;
+	text-align: center;
+	margin-top: 55px;
+	margin-bottom: 70px;
+	font-size: 55px;
+}
+
+div.contenedor{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+div.contenedor img{
+	width: 500px;
+	display: inline;
+}
+
+h2{
+	font-family: 'Satisfy', cursive;
+	padding: 10px 15px;
+	background-color: rgba(250, 250, 250, 0.5); 
+	text-align: center;
+}
+
+div.imagenes{
+	width: 70%;
+	right: 0;
+	left: 0;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+div.imagenes img{
+	width: 20%;
+	height: 160px;
+	margin: 15px;
+}
+
+footer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	bottom: 0;
+	margin-top: 300px;
+	background-color: #2B2626;
+	padding: 20px 10px;
+}
+
+
+footer div.copy{
+	color: white;
+
+}
+
+
+footer div.copy p{
+	padding: 15px 5px;
+	font-size: 20px;
+}
+
+footer div.redes a{
+	color: white;
+	padding: 0px 12px;
+	text-decoration: none;
+	font-size: 20px;
+}
+div.noticias{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+div.noticias div{
+	width: 300px;
+}
+div.noticias div div.desc{
+	background-color: #ffffff;
+	padding: 10px;
+}
+div.noticias div img{
+	width: 100%;
+	position: relative;
+}
+div.noticias div h1{
+	font-size: 20px;
+	color: #000;
+	margin-top: 0;
+	margin-bottom: 10px;
+}

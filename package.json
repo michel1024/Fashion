@@ -1,0 +1,11 @@
+{
+  "name": "fashion",
+  "version": "1.0.0",
+  "description": "Curso crea tu página web desde cero",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erick García",
+  "license": "ISC"
+}
